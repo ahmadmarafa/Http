@@ -1,6 +1,8 @@
 <?
 /*
 Ahmad muhammad arafa .
+ahmadmarafa[at]gmail.com
+ahmadarafa.com
 6:58 AM .
 25 NoV. 2010
 updated at 1:00 AM may 01 2012 
