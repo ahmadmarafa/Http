@@ -1,17 +1,4 @@
 <?php
-/* <NOTE> part of ITX framework .. 
- * Create By: Ahmad muhammad arafa ;
- * 25 NOV. 2010
- * 01 MAY. 2012
- * 24 JUN. 2013
- * 12 SEP. 2017
- *
- *  $http = new Http() ;
- *  $google = $http->get("https://google.com") ;
-*/
-
-namespace Itx\Utilities;
-
 class Http
 {
     private $headers = [] ;
@@ -575,7 +562,7 @@ class Http
         }
         throw new \Exception("{$method} is not exists");
     }
-    public static function __call($method , $args)
+    public  function __call($method , $args)
     {
         if(in_array($method , ["get" , "post" ])) {
             
